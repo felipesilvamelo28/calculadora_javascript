@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="principal">
+
+            <h1>Conversor Pés / mm</h1>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-7">
+                <h2>Pés e Polegadas Fracionadas</h2>
+
+                <p>Digite o valor:</p>
+
+                <form class="form-group">
+                    <input class="valor0" placeholder="Insira o valor" type="number" style="width:120px" required autofocus> ' <input class="valor1" placeholder="Insira o valor" type="number" style="width:120px" required autofocus> - <input class="valor2"
+                        type="number" style="width:120px" required autofocus placeholder="Insira o valor"> / <input class="valor3" type="number" style="width:120px" required autofocus placeholder="Insira o valor"> "
+                    <input class="btn btn-success" type="submit" value="Converter">
+                </form>
+
+                <button class="btn btn-default"><a href="calculadora.html">Voltar</a></button>
+                <button class="btn btn-default"><a href="pes_polegada_fracionada.html">Limpar</a></button>
+
+            </div>
+
+            <div class="col-sm-5">
+
+                <h2>Resultado</h2>
+
+                <table class="table">
+                    <thead>
+                        <tr class="success">
+                            <th>Valor em Pés</th>
+                            <th>Valor em "mm"</th>
+                        </tr>
+                    </thead>
+                    <tbody class="resultados">
+                        <tr>
+                            <td class="pes" name="pes">0</td>
+                            <td class="milimetro" name="milimetro">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Memória</h2>
+
+                <table class="table">
+                    <thead>
+                        <tr class="success">
+                            <th>Valor em Pés</th>
+                            <th>Valor em "mm"</th>
+                        </tr>
+                    </thead>
+                    <tbody class="memoria">
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/principal_pes_polegada_fracionada.js"></script>
+
+</body>
+
+
+</html>
